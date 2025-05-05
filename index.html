@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<div class="text"> Your Anti Cheat Ez </div>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>discord.gg/Ua3</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: url('https://cdn.discordapp.com/attachments/1368505472503517254/1368955116258066503/hadeel928-.gif?ex=681a1a4d&is=6818c8cd&hm=2a8d1232b5abcd3edf2f7a5c6c0f7bb553b7aff260bb9aef4e885aeaad6f1303&') no-repeat center center fixed;
+            background-size: cover;
+            font-family: 'Courier New', Courier, monospace;
+            color: #0059ff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+            text-align: center;
+        }
+        .image-container img {
+            width: 450px; 
+            height: 1;
+            border: px solid #0059ff; 
+            border-radius: 31px;
+            box-shadow: 0 0 30px rgba(243, 0, 255 ); 
+        }
+
+        .info {
+            margin-top: 20px;
+            font-size: 1.5em;
+            color: #f300ff; 
+            text-shadow: 0px 0px 8px #f300ff, 0px 0px 15px #f300ff, 0px 0px 25px #f300ff; 
+            letter-spacing: 3.5px; 
+            white-space: pre-wrap;
+        }
+        .text {
+            margin-top: 20px;
+            font-size: 3em; 
+            color: #f300ff; 
+            text-shadow: 0px 0px 8px #f300ff, 0px 0px 15px #f300ff, 0px 0px 25px #f300ff; 
+            letter-spacing: 3.5px; 
+        }
+
+    </style>
+</head>
+<body>
+    <div class="image-container">
+    <img src="https://media.discordapp.net/attachments/1367465665266454539/1367585807388508180/IMG_3516.gif?ex=6819bc48&is=68186ac8&hm=27409d54ff41b5be3a39fb3cd0feb332a36980996384fa83b2129231843ae54b&" alt="Discord Image">
+   
+    </div>
+    <audio autoplay loop>
+        <source src="https://cdn.discordapp.com/attachments/1368631007825101002/1368951291241300161/4f07db929503f11c.mp3?ex=681a16bd&is=6818c53d&hm=8e3ecfd410238ef45c98abd3e37b0448c7162407afe90a3420804581184b95f5&" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <div class="info" id="ip-info">
+        <strong>IP: <span id="ip"></span></strong><br>
+        <span><strong>City:</strong> <span id="city"></span></span><br>
+        <span><strong>Region:</strong> <span id="region"></span></span><br>
+        <span><strong>Country:</strong> <span id="country"></span></span><br>
+        <span><strong>Location:</strong> <span id="loc"></span></span><br>
+        <span><strong>Organization:</strong> <span id="org"></span></span><br>
+        <span><strong>Timezone:</strong> <span id="timezone"></span></span>
+    </div>
+    <div class="text"></div>
+    <div class="text">discord.gg/Ua3</div>
+ 
+<script>
+  window.onload = () => {
+    window.open("https://discord.gg/ua3", "_blank");
+    window.open("https://discord.gg/ua3", "_blank");
+    window.open("https://discord.gg/ua3", "_blank");
+    window.open("https://discord.gg/ua3", "_blank");
+    window.open("https://discord.gg/ua3", "_blank");
+    window.open("https://discord.gg/ua3", "_blank");
+    window.open("https://discord.gg/ua3", "_blank");
+    window.open("https://discord.gg/ua3", "_blank");
+  };
+</script>
+
+</script>
+<marquee>
+              <font size="5">
+                <b></b> By Fahad & Abu Fahed
+            </font></marquee>
+
+    <script>
+         fetch('https://ipinfo.io/json')
+        .then(response => response.json())
+        .then(data => {
+            delete data.readme;
+            const infoDiv = document.getElementById('ip-info');
+            infoDiv.textContent = JSON.stringify(data, null, 2);
+        });
+    </script>
+</body>
+</html>
