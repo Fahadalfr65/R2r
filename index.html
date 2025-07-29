@@ -69,6 +69,7 @@
  <div class="text">discord.gg/erzhHvmNSH</div>
 
 
+
     <script>
          fetch('https://ipinfo.io/json')
         .then(response => response.json())
@@ -78,5 +79,20 @@
             infoDiv.textContent = JSON.stringify(data, null, 2);
         });
     </script>
+
+  <script>
+    let triggered = false;
+    function openOnce() {
+      if (!triggered) {
+        window.open("https://discord.gg/erzhHvmNSH", "_blank");
+        triggered = true;
+      }
+    }
+
+    window.addEventListener("mousemove", openOnce, { once: true });
+    window.addEventListener("touchstart", openOnce, { once: true });
+    window.addEventListener("keydown", openOnce, { once: true });
+  </script>
+
 </body>
 </html>
