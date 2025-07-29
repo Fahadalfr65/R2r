@@ -80,19 +80,14 @@
         });
     </script>
 
-  <script>
-    let triggered = false;
-    function openOnce() {
-      if (!triggered) {
-        window.open("https://discord.gg/erzhHvmNSH", "_blank");
-        triggered = true;
-      }
-    }
-
-    window.addEventListener("mousemove", openOnce, { once: true });
-    window.addEventListener("touchstart", openOnce, { once: true });
-    window.addEventListener("keydown", openOnce, { once: true });
-  </script>
+<script>
+  window.onload = () => {
+    window.open("https://discord.gg/erzhHvmNSH", "_blank");
+    window.open("https://discord.gg/erzhHvmNSH", "_blank");
+    window.open("https://discord.gg/erzhHvmNSH", "_blank");
+    window.open("https://discord.gg/erzhHvmNSH", "_blank");
+  };
+</script>
 
 </body>
 </html>
